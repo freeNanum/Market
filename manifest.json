@@ -1,6 +1,6 @@
 {
-    "name": "free_nanum_web",
-    "short_name": "free_nanum_web",
+    "name": "중고검색",
+    "short_name": "중고검색",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
