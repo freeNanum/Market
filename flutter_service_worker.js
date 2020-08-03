@@ -14,7 +14,7 @@ const RESOURCES = {
 "ic_launcher-48.png": "dcf02693592939bbca399667db039975",
 "index.html": "7b365926e06c4925be7be176c5ac4cc8",
 "/": "7b365926e06c4925be7be176c5ac4cc8",
-"main.dart.js": "ac0bc90bbeefe5d39decfd44677273a9",
+"main.dart.js": "66f9a62aa4a9dc3b0d165886292d2241",
 "manifest.json": "e1167fac21cfa3a42031e6d0e5a9d17f",
 "style.css": "f6af996350b642dacc170f7a6cd5b747"
 };
