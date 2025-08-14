@@ -3,7 +3,7 @@
 
 
 
-# freeNanum.github.io/market
+# freeNanum.github.io/Market
 
 Search and get your item on all the ued markets only once.
 
