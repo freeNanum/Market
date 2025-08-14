@@ -7,4 +7,4 @@
 
 Search and get your item on all the ued markets only once.
 
-- [Try it on here](https://freeNanum.github.io/market)
+- [Try it on here](https://freeNanum.github.io/Market)
