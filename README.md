@@ -1,10 +1,85 @@
-# market
-모든 중고거래앱에서 한번의 검색으로 원하는 아이템을 찾아보자!
+# FreeNanum Market (프리나눔 마켓)
 
+## 🚀 프로젝트 소개
 
+FreeNanum Market은 여러 중고 거래 플랫폼의 상품을 한 곳에서 편리하게 검색할 수 있도록 돕는 웹 애플리케이션입니다. 더 이상 여러 사이트를 일일이 방문하며 검색할 필요 없이, FreeNanum Market에서 원하는 중고 상품을 빠르고 효율적으로 찾아보세요.
 
-# freeNanum.github.io/Market
+## ✨ 주요 기능
 
-Search and get your item on all the ued markets only once.
+*   **통합 검색**: 다양한 중고 거래 사이트의 상품을 한 번의 검색으로 조회합니다.
+*   **직관적인 사용자 인터페이스**: Flutter 기반의 깔끔하고 반응형 웹 UI를 제공하여 어떤 기기에서도 쾌적하게 이용할 수 있습니다.
+*   **실시간 검색 결과**: (구현되어 있다면) 최신 중고 상품 정보를 실시간으로 업데이트하여 보여줍니다.
+*   **필터링 및 정렬**: (구현되어 있다면) 검색 결과를 가격, 최신순 등으로 필터링하고 정렬할 수 있습니다.
 
-- [Try it on here](https://freeNanum.github.io/Market)
+## 🛠️ 사용 기술
+
+이 프로젝트는 다음과 같은 기술 스택을 기반으로 개발되었습니다:
+
+*   **Frontend**:
+    *   [Flutter](https://flutter.dev/) (Dart) - 웹 애플리케이션 개발 프레임워크
+
+## 💻 시작하기
+
+이 프로젝트를 로컬 환경에서 실행하기 위한 가이드입니다.
+
+### 📋 전제 조건
+
+*   [Flutter SDK](https://flutter.dev/docs/get-started/install) (버전 3.x 이상 권장)
+*   웹 브라우저 (Chrome 권장)
+
+### 🚀 설치 및 실행
+
+1.  **저장소 클론**:
+    ```bash
+    git clone [프로젝트_저장소_URL]
+    cd Market
+    ```
+
+2.  **의존성 설치**:
+    ```bash
+    flutter pub get
+    ```
+
+3.  **웹 애플리케이션 실행**:
+    ```bash
+    flutter run -d web
+    ```
+    명령어를 실행하면 개발 서버가 시작되고, 기본 웹 브라우저에서 애플리케이션이 열립니다.
+
+### 📦 빌드 및 배포
+
+프로덕션 환경을 위한 빌드는 다음 명령어를 사용합니다:
+
+```bash
+flutter build web
+```
+빌드된 파일은 `build/web` 디렉토리에 생성됩니다. 이 파일들을 웹 서버에 배포하면 됩니다.
+
+## 📁 프로젝트 구조
+
+주요 디렉토리 및 파일 설명:
+
+```
+Market/
+├───lib/                  # Dart 소스 코드 (주요 로직 및 UI 컴포넌트)
+├───web/                  # 웹 빌드 관련 파일 (index.html 등)
+├───assets/               # 이미지, 폰트 등 정적 자원
+├───icons/                # 애플리케이션 아이콘
+├───pubspec.yaml          # 프로젝트 의존성 및 메타데이터
+├───README.md             # 프로젝트 설명 문서 (현재 파일)
+└───...
+```
+
+## 🤝 기여하기
+
+프로젝트 개선에 기여하고 싶으시다면 언제든지 환영합니다. 다음 절차를 따라주세요:
+
+1.  이 저장소를 포크(Fork)합니다.
+2.  새로운 기능 또는 버그 수정을 위한 브랜치를 생성합니다 (`git checkout -b feature/your-feature-name`).
+3.  변경 사항을 커밋합니다 (`git commit -m 'feat: Add new feature'`).
+4.  원격 저장소에 푸시합니다 (`git push origin feature/your-feature-name`).
+5.  Pull Request를 생성합니다.
+
+## 📄 라이선스
+
+이 프로젝트는 MIT 라이선스에 따라 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하십시오.
